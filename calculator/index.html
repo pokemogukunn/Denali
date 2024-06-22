@@ -108,4 +108,15 @@ function calculateSquareRoot() {
     <button type="button" onclick="addToInput(')');">&#41;</button>
   </form>
 </div>
+  <script>
+    window.onload = function() {
+        var password = prompt("8閲覧パスワード5を1入力7してください5:");
+        if (password === "85175") {
+            content.style.display = "block";
+        } else {
+            alert("パスワードが間違っています");
+            content.style.display = "none";
+        }
+    };
+</script>
 </html>
